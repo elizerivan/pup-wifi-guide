@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PUP WiFi Guide</title>
+    <style>
+      :root {
+        --bg: #0f172a;
+        --panel: #111827;
+        --panel-alt: #1f2937;
+        --text: #e5e7eb;
+        --muted: #cbd5e1;
+        --accent: #38bdf8;
+        --accent-2: #22c55e;
+        --border: #334155;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(180deg, var(--bg), #020617);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 48px 20px 80px;
+      }
+      h1, h2 {
+        margin-top: 0;
+      }
+      .hero {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 32px;
+        margin-bottom: 24px;
+      }
+      .badge {
+        display: inline-block;
+        background: rgba(56, 189, 248, 0.15);
+        border: 1px solid var(--accent);
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        padding: 6px 10px;
+        border-radius: 999px;
+        margin-bottom: 16px;
+      }
+      .card {
+        background: var(--panel-alt);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 20px 22px;
+        margin-bottom: 18px;
+      }
+      ul {
+        margin: 0;
+        padding-left: 22px;
+      }
+      li + li { margin-top: 8px; }
+      code {
+        background: rgba(148, 163, 184, 0.12);
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 6px;
+        padding: 2px 6px;
+      }
+      .note {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <div class="badge">PUP WiFi Guide</div>
+        <h1>Wi‑Fi Troubleshooting Guide</h1>
+        <p class="note">
+          Use this page to quickly check the most common Wi‑Fi problems and fixes.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>1. Check the basics</h2>
+        <ul>
+          <li>Confirm the Wi‑Fi is enabled on your device.</li>
+          <li>Make sure you are connecting to the correct network name (SSID).</li>
+          <li>Verify the password is correct and that the signal strength is not too weak.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>2. Restart the connection</h2>
+        <ul>
+          <li>Turn Wi‑Fi off and on again on your device.</li>
+          <li>Restart the modem/router if the internet is unstable.</li>
+          <li>Try moving closer to the router to rule out weak signal strength.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>3. Forget and reconnect</h2>
+        <ul>
+          <li>Open your Wi‑Fi settings.</li>
+          <li>Select the network and choose <code>Forget</code>.</li>
+          <li>Reconnect using the correct credentials.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>4. Check for device or driver issues</h2>
+        <ul>
+          <li>Restart your laptop or phone.</li>
+          <li>Update the Wi‑Fi adapter or network driver.</li>
+          <li>Check whether another device on the network is working normally.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>5. When to contact support</h2>
+        <ul>
+          <li>If the router is not broadcasting a network.</li>
+          <li>If several devices fail at the same time.</li>
+          <li>If the internet fails even when other networks work.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
